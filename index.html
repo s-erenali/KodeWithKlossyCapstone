@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Pomodoro Study Sesh</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  </head>
+  <body>
+      <div class = "title">
+      <img class = "tomato" src="https://www.jing.fm/clipimg/full/41-413512_the-pomodoro-technique-developed-by-francesco-cirillo-smiley.png" alt="tomato">
+
+      <h1> POMODORO STUDY SESH </h1>
+
+      <img class = "tomato" src="https://www.jing.fm/clipimg/full/41-413512_the-pomodoro-technique-developed-by-francesco-cirillo-smiley.png" alt="tomato">
+      </div>
+
+
+      <nav class = "nav-bar">
+        <article>
+          <a href = "index.html"> Main Page </a>
+        </article>
+        <article>
+          <a href = "sat.html"> SAT/ACT </a>
+        </article>
+        <article>
+          <a href = "customize.html"> Customize </a>
+        </article>
+        <article>
+          <a href = "study-resources.html"> Study Resources </a>
+        </article>
+        <article>
+          <a href = "about.html"> About </a>
+        </article>
+        <button class="login"><a href = "login.html">Login/Signup </a> </button>
+        
+      </nav>
+
+    <div class = "mid">
+      <h2 class = "list header"> How It Works: </h2>
+      <p class "list"> study for 25 minutes </p>
+      <p class "list"> break for 5 minutes </p>
+      <p class "list"> repeat 4 times </p>
+      <p class "list"> break for 45 minutes </p>
+      <p class "list"> repeat </p>
+    </div>
+
+      <!-- Pomodoro Clock -->
+
+<div class = "pam">
+  <div id="pomodoro">
+    <div id="clock">
+      <div id="timer">
+        <div id="title">Ready?</div>
+        <div id="countdown">
+          <span id="minutes">25</span>
+          <span id="seconds">00</span>
+        </div>
+        <div id="controls" class="reset">
+          <div id="start"><i class="fas fa-play"></i> Start</div>
+          <div id="pause"><i class="fas fa-pause"></i> Pause</div>
+          <div id="reset"><i class="fas fa-sync-alt"></i> Reset</div>
+        </div>
+      </div>
+    </div>
+    <div id="options">
+      <div id="session">
+        <i id="incrSession" class="fas fa-angle-double-up"></i>
+        <span class="option-title">Session</span>
+        <input id="sessionInput" type="number" value="25" max="60" min="5" disabled>
+        <i id="decrSession" class="fas fa-angle-double-down"></i>
+      </div>
+      <div id="break">
+        <i id="incrBreak" class="fas fa-angle-double-up"></i>
+        <span class="option-title">Break</span>
+        <input id="breakInput" type="number" value="5" max="10" min="1" disabled>
+        <i id="decrBreak" class="fas fa-angle-double-down"></i>
+      </div>
+    </div>
+  </div>
+  <p class = "music"> Background Music: </p>
+  <div id="audio-selector">
+    <div id="forest" class="theme"><!--🌲 -->Forest</div>
+    <div id="ocean" class="theme"><!--🌊 -->Ocean</div>
+    <div id="rainy" class="selected theme"><!--🌧 -->Rainy</div>
+    <div id="peace" class="theme"><!--🧘 -->Peace</div>
+    <div id="cafe" class="theme"><!--☕ -->Caf&eacute;</div>
+  </div>
+</div>
+<audio loop autoplay="false" src="https://joeweaver.me/codepenassets/freecodecamp/challenges/build-a-pomodoro-clock/rain.mp3">
+
+    <script src="script.js"></script>
+
+
+
+
+</body>
+</html>

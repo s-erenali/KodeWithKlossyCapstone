@@ -1,0 +1,147 @@
+nav{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  align-content: space-between !important;
+  background: #808F87 !important;
+  border-radius: 10px !important;
+  font-size: 150% !important;
+  max-height: 72px !important;
+  margin: 0.5% !important;
+}
+
+.login {
+    background-color: #808F87 !important;
+    color: white !important;
+    margin:5% !important;
+    font-family: Georgia !important;
+    font-size: 110% !important;
+    border-radius: 12px !important;
+}
+
+/*container-categories in menu*/
+article{
+  margin: 5% !important;
+  color: white !important;
+  font-family: Georgia !important;
+}
+
+/*text-categories in menu*/
+a{
+  color: white !important;
+  text-decoration: none !important;
+}
+
+body{
+  background-color: #E2EFDE !important;
+}
+
+h1 {
+    color:  #E2EFDE !important;
+    text-shadow: 0 4px 10px black !important;
+    text-align: center;
+    letter-spacing: 6px !important;
+    font-size: 400% !important; 
+    margin: 30px !important;
+    font-family: Times New Roman !important;
+}
+
+
+.pomodoro {
+  font-family: Times New Roman !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  margin-top: 100px;
+  padding-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+p {
+  text-align: center;
+}
+
+.flip-clock-wrapper {
+  padding-top: 20px;
+  max-width: 460px;
+  margin: 3em auto 2em;
+  display: flex;
+  justify-content: center;
+}
+
+.col-md-4 {
+  display: flex;
+  justify-content: center;
+}
+
+.col-md-2 {
+  display: flex;
+  justify-content: center;
+  height: 34px;
+  align-items: center;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+}
+
+.clock {
+  margin-top: 30px;
+}
+
+.container {
+  width: 500px;
+}
+
+.middle {
+  display: inline-block;
+}
+
+#btns {
+  display: flex;
+  justify-content: center;
+}
+
+#stop {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.btn {
+  background-color: #333333;
+  color: #CCCCCC;
+}
+
+#sessInc, #sessDec, #breakInc, #breakDec {
+  font-weight: bold;
+}
+
+#stats {
+  background-color: #333333;
+  width: 220px;
+  height: 70px;
+  border-radius: 10px;
+  color: #CCCCCC;
+  font-size: 45px;
+  text-align: center;
+}
+
+#statRow {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#btns{
+  position: absolute;
+  margin-left: 118px;
+}
+
+.test[onclick] { 
+  cursor: pointer 
+}

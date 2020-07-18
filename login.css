@@ -1,0 +1,101 @@
+body {
+    background-color: #E2EFDE;
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+    color: #4E3D42;
+}
+
+.question {
+    color: #4E3D42;
+}
+
+label {
+    color: #4E3D42;
+}
+
+.username {
+    margin: 55px auto 5px auto;
+    padding: 5px;
+    font-size: 90%;
+}
+
+.password {
+    margin: 55px auto 5px auto;
+    padding: 5px;
+    font-size: 90%;
+}
+
+.submit {
+    width: 100px;
+    height: 30px;
+    margin: 30px auto 20px auto;
+    background-color: #808F87;
+    color: white;
+    display: flex;
+   align-items: center;
+   justify-content: center
+
+}
+
+.signup {
+    width: 150px;
+    height: 30px;
+    margin: 30px auto 20px auto;
+    background-color: #808F87;
+    color: #4E3D42;
+    display: flex;
+   align-items: center;
+   justify-content: center
+
+}
+
+/*unvistited sign up link*/
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+/*container-categories in article*/
+.content {
+   margin: 10px auto;
+   width: 400px;
+   display: flex;
+   justify-content: center;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  background: #808F87;
+  border-radius: 10px;
+  font-size: 125%;
+  max-height: 75px;
+}
+
+.login {
+    background-color: #808F87;
+    color: white;
+    margin:5%;
+    font-family: Georgia;
+    font-size: 110%;
+    border-radius: 12px;
+}
+
+/*container-categories in menu*/
+article{
+  margin: 5%;
+  color: white;
+  font-family: Georgia;
+}
+
+/*text-categories in menu*/
+a{
+  color: white;
+  text-decoration: none;
+}
+
